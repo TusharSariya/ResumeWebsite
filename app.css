@@ -28,6 +28,16 @@ body
 {
     position: relative;
 }
+
+.column
+{
+    flex: 50%;
+}
+
+#footer
+{
+    display: flex;
+}
 /*header*/
 header 
 {
