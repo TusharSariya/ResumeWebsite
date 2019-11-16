@@ -9,6 +9,7 @@ body
     width: 80%;
     margin: auto;
     overflow: hidden;
+    #box-shadow: 10px 10px 5px grey;
 }
 
 .sections
