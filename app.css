@@ -11,6 +11,23 @@ body
     overflow: hidden;
 }
 
+.sections
+{
+    border-left: #000000 3px solid;
+    padding-left: 10px;
+}
+
+.job_time_loc
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.job
+{
+    position: relative;
+}
 /*header*/
 header 
 {
