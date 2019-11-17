@@ -9,13 +9,21 @@ body
     width: 80%;
     margin: auto;
     overflow: hidden;
-    #box-shadow: 10px 10px 5px grey;
+    /*box-shadow: 10px 10px 5px grey;*/
 }
 
 .sections
 {
     border-left: #000000 3px solid;
     padding-left: 10px;
+}
+
+.card
+{
+    border:none;
+    border-left: #000000 3px solid;
+    padding-left: 10px;
+    border-radius: 0%;
 }
 
 .job_time_loc
@@ -30,10 +38,37 @@ body
     position: relative;
 }
 
+.btn-link
+{
+    color: #000000;
+}
+
 .column
 {
     flex: 50%;
 }
+
+.job_img
+{
+    height: 150px;
+}
+
+h1
+{
+ font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+
+h3
+{
+    font-size: 1.17em;
+}
+
+
 
 #footer
 {

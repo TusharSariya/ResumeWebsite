@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Tushar Resume</title>
-        <link rel="stylesheet" type="text/css" href="app.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="app.css">
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
@@ -26,50 +26,86 @@
         <section id="Experience">
             <div class="container">
                 <h1>Experience</h1>
-                <div class="sections">
-                    <div class="job">
-                        <h2>Software Development Intern</h2>
-                        <h3>Curtiss Wright Defense Solutions</h3>
-                        <div class="job_time_loc">
-                            <h4>date</h4>
-                            <h4>location</h4>
-                        </div>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="job">
-                        <h2>Software Development Intern</h2>
-                        <h3>Canadian Nuclear Laboratories</h3>
-                        <div class="job_time_loc">
-                            <h4>date</h4>
-                            <h4>location</h4>
-                        </div>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <img src="img/muon_tomography.png" height="200">
-                        
-                    </div>
-                    <div class="job">
-                        <h2>Founder</h2>
-                        <h3>InfraSense-Health</h3>
-                        <div class="job_time_loc">
-                            <h4>date</h4>
-                            <h4>location</h4>
-                        </div>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+            <div id="accordion" class="container">
+                    <div class="card">
+                      <div id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2>Software Development Intern</h2>
+                            <h3>Curtiss Wright Defense Solutions</h3>
+                            <div class="job_time_loc">
+                              <h4>date</h4>
+                              <h4>location</h4>
+                          </div>
+                          <ul>
+                            <li>Reduced total test time by 70% by developing automated testing scripts saving the company 185k/y.</li>
+                            <li>automated network testing using Spirent Test Center and WireShark.</li>
+                            <li>Developed an onboarding routine for new members joining the project.</li>
+                          </ul>
+                          </button>
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body row">
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h2>Software Development Intern</h2>
+                            <h3>Canadian Nuclear Laboratories</h3>
+                            <div class="job_time_loc">
+                              <h4>date</h4>
+                              <h4>location</h4>
+                          </div>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body row">
+                          <div class="col-md-6">
+                              <a href="#"><img src="img/muon_tomography.png" class="job_img" alt="inn_logo"></a>
+                          </div>
+                          <div class="col-md-6">
+                              <a href="#"><img src="img/muon_tomography_1.png" class="job_img" alt="ccs_logo"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h2>Founder</h2>
+                            <h3>InfraSense-Health</h3>
+                            <div class="job_time_loc">
+                              <h4>date</h4>
+                              <h4>location</h4>
+                          </div>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
         </section>
         <section id="Skills">
             <div class="container">
