@@ -28,6 +28,11 @@ body
     border-radius: 0%;
 }
 
+.header
+{
+    background-color: #6e6e6e;
+}
+
 .job_time_loc
 {
     position: absolute;
@@ -79,6 +84,15 @@ h4{
     font-size: 1em;
 }
 
+.name
+{
+    font-size: 2em;
+}
+
+.skill_list
+{
+    display: inline;
+}
 
 
 #footer
@@ -88,8 +102,6 @@ h4{
 /*header*/
 header 
 {
-    background-color: #6e6e6e;
-    padding-top: 30px;
     min-height: 70px;
 }
 
